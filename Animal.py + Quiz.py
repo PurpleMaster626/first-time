@@ -15,7 +15,7 @@ def check_guess(guess, answer):
            
     if attempt == 3:
         print("The correct answer is ' + answer)
-        
+#This segment gives the player three tries to answer the question
         
 score = 0
 print("Guess the Animal!")
@@ -33,6 +33,7 @@ Type A, B, C, D ")
 check_guess(guess, "B")
 guess6 = input("What kind of Mammal can fly? ")
 check_guess(guess, "Bat")
-
+#these are the questions
 
 print("Your score is " + str(score))
+#final score
